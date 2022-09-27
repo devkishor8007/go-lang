@@ -2,4 +2,3 @@
 => fmt.Println is a Go function, found in the fmt package, that tells the computer to print some text to the screen
 => The fmt.Scanln method tells the computer to wait for input from the keyboard ending with a new line or (\n), character.
 => 
-
