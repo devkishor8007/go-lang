@@ -5,6 +5,15 @@ import "fmt"
 func main() {
 	isAge := 10 > 1
 	fmt.Println(isAge)
+
+	// example: boolean with Flow Control
+	book := 200
+
+	if book > 250 {
+		fmt.Println(true)
+	} else {
+		fmt.Println(false)
+	}
 }
 
 
