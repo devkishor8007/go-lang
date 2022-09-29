@@ -4,3 +4,5 @@
 => Arrays are defined by declaring the size of the array, then the data type with the values defined between curly brackets { }
 => A map is constructed by using the keyword map followed by the key data type in square brackets [ ], followed by the value data type and the key value pairs in curly braces.
  example map[key]value{}
+=> fmt.Println() which will print objects to standard out (most likely your terminal).
+=> fmt.Printf() which will allow you to format your printed output.
