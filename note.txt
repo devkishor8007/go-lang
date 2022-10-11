@@ -6,3 +6,4 @@
  example map[key]value{}
 => fmt.Println() which will print objects to standard out (most likely your terminal).
 => fmt.Printf() which will allow you to format your printed output.
+=> When we add `defer` before a function, that function is executed after the surrounding function completes
