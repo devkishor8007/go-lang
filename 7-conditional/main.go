@@ -22,5 +22,7 @@ func main() {
 		fmt.Println("you are in")
     case 20:
 		fmt.Println("you are under qualified")
+	default: 
+	    fmt.Println("try next year")
 	}
 }
