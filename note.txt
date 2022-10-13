@@ -7,3 +7,10 @@
 => fmt.Println() which will print objects to standard out (most likely your terminal).
 => fmt.Printf() which will allow you to format your printed output.
 => When we add `defer` before a function, that function is executed after the surrounding function completes
+=> goroutine is a lightweight thread in GoLang. It can continue its work alongside the main goroutine and thus creating concurrent execution
+
+Q. When to use Goroutines in GoLang?
+=> When one task can be split into different segments to perform better.
+=> When making multiple requests to different API endpoints.
+=> Any work that can utilize multi-core CPU should be well optimized using goroutines.
+=> Running background operations in a program might be a use case for a goroutine.
