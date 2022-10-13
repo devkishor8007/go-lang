@@ -38,7 +38,7 @@ func totalExpense(s []SalaryCalculator) {
     for _, v := range s {
         expense = expense + v.CalculateSalary()
     }
-    fmt.Printf("Total Expense Per Month $%d", expense)
+    fmt.Printf("Total Expense Per Month $%d\n", expense)
 }
 
 func main() {  
